@@ -1,0 +1,132 @@
+@import url('https://fonts.googleapis.com/css2?family=Cairo:wght@400;600;800&display=swap');
+
+body {
+    font-family: 'Cairo';
+    color: #fff;
+    font-size: 2em;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100vw;
+    height: 100vh;
+    overflow: hidden;
+
+    background: linear-gradient(270deg, #000000, #3c3c3c, #696969, #9b9b9b);
+    background-size: 800% 800%;
+
+    -webkit-animation: AnimationName 30s ease infinite;
+    -moz-animation: AnimationName 30s ease infinite;
+    -o-animation: AnimationName 30s ease infinite;
+    animation: AnimationName 30s ease infinite;
+}
+
+#timer {
+    margin: auto;
+}
+
+.countdown {
+    width: 100%;
+    text-align: center;
+}
+
+.countdown h1{
+    font-size: 50px;
+    font-weight: 900;
+}
+
+
+.countdown p{
+    font-size: 16px;
+    font-weight: 400;
+}
+
+
+#days {
+    color: #fff;
+}
+
+#hours {
+    color: #fff;
+}
+
+#minutes {
+    color: #fff;
+}
+
+#seconds {
+    color: #fff;
+}
+
+.thinWide {
+    width: 100%;
+    height: 3px;
+    background-color: #3B8183;
+    position: relative;
+    border: none;
+}
+
+canvas {
+    transform: rotate(-90deg);
+    -ms-transform: rotate(-90deg);
+    /* IE 9 */
+    -webkit-transform: rotate(-90deg);
+    /* Safari and Chrome */
+    padding: 1rem 0;
+}
+
+@-webkit-keyframes AnimationName {
+    0% {
+        background-position: 0% 50%
+    }
+
+    50% {
+        background-position: 100% 50%
+    }
+
+    100% {
+        background-position: 0% 50%
+    }
+}
+
+@-moz-keyframes AnimationName {
+    0% {
+        background-position: 0% 50%
+    }
+
+    50% {
+        background-position: 100% 50%
+    }
+
+    100% {
+        background-position: 0% 50%
+    }
+}
+
+@-o-keyframes AnimationName {
+    0% {
+        background-position: 0% 50%
+    }
+
+    50% {
+        background-position: 100% 50%
+    }
+
+    100% {
+        background-position: 0% 50%
+    }
+}
+
+@keyframes AnimationName {
+    0% {
+        background-position: 0% 50%
+    }
+
+    50% {
+        background-position: 100% 50%
+    }
+
+    100% {
+        background-position: 0% 50%
+    }
+}
